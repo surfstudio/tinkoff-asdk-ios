@@ -176,7 +176,6 @@
 		94C5BCB81C6B3E0300542BC8 /* ASDK3DSViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDK3DSViewController.m; sourceTree = "<group>"; };
 		94C5BCB91C6B3E0300542BC8 /* ASDK3DSViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ASDK3DSViewController.xib; sourceTree = "<group>"; };
 		94C86A001C6B2E5100046F0E /* ASDKUIImages.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = ASDKUIImages.xcassets; sourceTree = "<group>"; };
-		94C86A031C6B2E5100046F0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/ASDKLocalizable.strings; sourceTree = "<group>"; };
 		94C86A041C6B2E5100046F0E /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/ASDKLocalizable.strings; sourceTree = "<group>"; };
 		94C86A0B1C6B304900046F0E /* ASDKPaymentFormStarter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASDKPaymentFormStarter.h; sourceTree = "<group>"; };
 		94C86A0C1C6B304900046F0E /* ASDKPaymentFormStarter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASDKPaymentFormStarter.m; sourceTree = "<group>"; };
@@ -797,7 +796,6 @@
 		94C86A021C6B2E5100046F0E /* ASDKLocalizable.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				94C86A031C6B2E5100046F0E /* en */,
 				94C86A041C6B2E5100046F0E /* ru */,
 			);
 			name = ASDKLocalizable.strings;
