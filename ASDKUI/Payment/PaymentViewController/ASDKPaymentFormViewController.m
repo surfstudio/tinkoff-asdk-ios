@@ -314,6 +314,8 @@ NSUInteger const CellPyamentCardID = CellEmptyFlexibleSpace + 1;
 	if ([self filterCardList:[[ASDKCardsListDataController instance] externalCards]].count > 0)
     {
 		NSMutableArray *dataSource = [NSMutableArray arrayWithArray:self.tableViewDataSource];
+        // change indexOfObjectIdenticalTo to indexOfObject, because in swift environment
+        // this method returns NSNotFound
 		NSUInteger index = [dataSource indexOfObject:@(CellPaymentCardRequisites)];
 		if (index != NSNotFound && [dataSource indexOfObjectIdenticalTo:@(CellPyamentCardID)] == NSNotFound)
 		{
